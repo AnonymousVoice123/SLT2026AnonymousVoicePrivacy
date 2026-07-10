@@ -1,3 +1,8 @@
+# This file is adapted from Plachtaa/seed-vc.
+# Original project: https://github.com/Plachtaa/seed-vc
+# License: GNU General Public License v3.0
+# Modifications: projected CFG anonymization and configurable projection modes.
+
 import torch
 import librosa
 import torchaudio

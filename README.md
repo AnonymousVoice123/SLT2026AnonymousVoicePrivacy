@@ -248,27 +248,12 @@ export HF_ENDPOINT=https://hf-mirror.com
 bash download_models.sh
 ```
 
-## 8. License and Acknowledgement
+## 8. Acknowledgement
 
-This code is adapted from Seed-VC. Please keep the original Seed-VC license and attribution when redistributing modified code.
-
-Recommended repository files:
+This repository is adapted from:
 
 ```text
-LICENSE
-NOTICE
-README.md
+Seed-VC: https://github.com/Plachtaa/seed-vc
 ```
 
-Do not upload pretrained checkpoints or generated audio files to GitHub. Add them to `.gitignore`:
-
-```text
-pretrained/
-outputs/
-*.wav
-*.mp3
-*.flac
-*.pth
-*.pt
-*.ckpt
-```
+We thank the Seed-VC authors for releasing their code and models.

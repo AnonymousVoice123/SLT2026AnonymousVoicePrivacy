@@ -1,0 +1,24 @@
+This repository contains code adapted from Seed-VC:
+
+  https://github.com/Plachtaa/seed-vc
+
+The following files are adapted or modified from Seed-VC:
+
+  inference_v2.py
+  modules/v2/cfm.py
+  modules/v2/vc_wrapper.py
+  configs/v2/vc_wrapper.yaml
+  modules/
+  hf_utils.py, if included
+
+Original Seed-VC code is licensed under the GNU General Public License v3.0.
+
+Modifications in this repository include:
+  - projected CFG inference for speech anonymization
+  - configurable projection modes: global, token, smooth21
+  - separate AR target audio support
+  - single-audio anonymization shell pipeline
+
+Pretrained model checkpoints are not redistributed in this repository.
+Users should download them separately using download_models.sh or manually
+from the original model sources.
